@@ -5,6 +5,7 @@ import Stats from './components/Stats';
 import About from './components/About';
 import Services from './components/Services';
 import Products from './components/Products';
+import Community from './components/Community';
 import DairyChat from './components/DairyChat';
 import { Mail, Phone, MapPin, Facebook, Twitter, Instagram } from 'lucide-react';
 
@@ -19,6 +20,7 @@ const App: React.FC = () => {
         <About />
         <Services />
         <Products />
+        <Community />
       </main>
 
       {/* Contact / Footer Section */}
