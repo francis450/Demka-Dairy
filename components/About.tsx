@@ -10,10 +10,13 @@ const About: React.FC = () => {
              {/* Decorative blob background */}
             <div className="absolute -top-4 -left-4 w-72 h-72 bg-brand-green/20 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob"></div>
             <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-brand-blue/20 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
-            
-            <div className="relative grid grid-cols-2 gap-4">
-              <img src="/images/01.jpeg" alt="Demka Dairy Event Tent" className="rounded-2xl shadow-lg transform translate-y-8 object-cover h-full w-full" />
-              <img src="/images/08.jpeg" alt="Staff Serving Customers" className="rounded-2xl shadow-lg object-cover h-full w-full" />
+
+            <div className="relative space-y-4">
+              <div className="grid grid-cols-2 gap-4">
+                <img src="/images/01.jpeg" alt="Demka Dairy Event Tent" className="rounded-2xl shadow-lg object-cover h-48 w-full" />
+                <img src="/images/08.jpeg" alt="Staff Serving Customers" className="rounded-2xl shadow-lg object-cover h-48 w-full" />
+              </div>
+              <img src="/images/our_history.jpg" alt="Farmer Partnership - Raw Milk Collection" className="rounded-2xl shadow-lg object-cover w-full h-64" />
             </div>
           </div>
 

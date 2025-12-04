@@ -73,6 +73,15 @@ const Products: React.FC = () => {
           </p>
         </div>
 
+        {/* Product Banner */}
+        <div className="mb-12 rounded-3xl overflow-hidden shadow-2xl">
+          <img
+            src="/images/07.jpeg"
+            alt="Gracies Yoghurt Product Range - Multiple Flavors"
+            className="w-full h-64 sm:h-80 object-cover"
+          />
+        </div>
+
         {/* Filters */}
         <div className="flex flex-wrap justify-center gap-4 mb-12">
           {categories.map(cat => (

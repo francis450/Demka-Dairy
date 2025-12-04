@@ -6,12 +6,12 @@ const Hero: React.FC = () => {
     <section id="home" className="relative h-screen flex items-center justify-center overflow-hidden">
       {/* Background Image with Overlay */}
       <div className="absolute inset-0 z-0">
-        <img 
-          src="https://picsum.photos/1920/1080?grayscale&blur=2" 
-          alt="Dairy Farm Landscape" 
+        <img
+          src="/images/banner1.jpeg"
+          alt="Gracies Yoghurt - 1 is never enough"
           className="w-full h-full object-cover"
         />
-        <div className="absolute inset-0 bg-gradient-to-r from-brand-blue/90 to-brand-green/80 mix-blend-multiply"></div>
+        <div className="absolute inset-0 bg-gradient-to-r from-brand-blue/70 to-brand-green/60 mix-blend-multiply"></div>
       </div>
 
       <div className="relative z-10 max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 text-center sm:text-left">
