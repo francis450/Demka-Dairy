@@ -12,8 +12,8 @@ const About: React.FC = () => {
             <div className="absolute -bottom-4 -right-4 w-72 h-72 bg-brand-blue/20 rounded-full mix-blend-multiply filter blur-xl opacity-70 animate-blob animation-delay-2000"></div>
             
             <div className="relative grid grid-cols-2 gap-4">
-              <img src="public\images\01.jpeg" alt="Demka Dairy Event Tent" className="rounded-2xl shadow-lg transform translate-y-8 object-cover h-full w-full" />
-              <img src="public\images\08.jpeg" alt="Staff Serving Customers" className="rounded-2xl shadow-lg object-cover h-full w-full" />
+              <img src="public/images/01.jpeg" alt="Demka Dairy Event Tent" className="rounded-2xl shadow-lg transform translate-y-8 object-cover h-full w-full" />
+              <img src="public/images/08.jpeg" alt="Staff Serving Customers" className="rounded-2xl shadow-lg object-cover h-full w-full" />
             </div>
           </div>
 
