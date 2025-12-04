@@ -8,49 +8,49 @@ const products: ProductItem[] = [
     category: 'Yoghurt',
     description: 'Thick, creamy, and Deliciously Yummy. Available in multiple flavors and sizes.',
     flavors: ['Vanilla', 'Strawberry', 'Passion', 'Lemon Biscuit', 'Chocolate'],
-    image: 'public/images/Yoghurt.png'
+    image: '/images/Yoghurt.png'
   },
   {
     id: 'm1',
     name: 'Gracies Lala',
     category: 'Milk',
     description: 'Rich Buttermilk. Smooth, nutritious, and perfect for digestion (500ml).',
-    image: 'public/images/Mala.png'
+    image: '/images/Mala.png'
   },
   {
     id: 'c1',
     name: 'Mozzarella Cheese',
     category: 'Cheese',
     description: 'Freshly Crafted in Kenya. Perfect stretch for your favorite pizzas.',
-    image: 'public/images/Mozzarella Cheese.jpeg'
+    image: '/images/Mozzarella Cheese.jpeg'
   },
   {
     id: 'c2',
     name: 'Paneer Cheese',
     category: 'Cheese',
     description: 'Premium quality Paneer. ideal for cooking and grilling.',
-    image: 'public/images/Paneer Cheese.jpeg'
+    image: '/images/Paneer Cheese.jpeg'
   },
   {
     id: 'c3',
     name: 'Feta Cheese',
     category: 'Cheese',
     description: 'Classic crumbly Feta. Freshly crafted for salads and savory dishes.',
-    image: 'public/images/Feta Cheese.jpeg'
+    image: '/images/Feta Cheese.jpeg'
   },
   {
     id: 'c4',
     name: 'Mild Cheddar',
     category: 'Cheese',
     description: 'A smooth, mild cheddar cheese. A family favorite.',
-    image: 'public/images/Cheddar Cheese.jpeg'
+    image: '/images/Cheddar Cheese.jpeg'
   },
   {
     id: 'm2',
     name: 'Fresh Whole Milk',
     category: 'Milk',
     description: 'Pasteurized and Homogenized. Farm fresh nutrition in every drop.',
-    image: 'public/images/Pasteurized 5L.png'
+    image: '/images/Pasteurized 5L.png'
   },
 ];
 
